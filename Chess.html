@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 600px;
+        }
+        .container{
+            /* width: fit-content; */
+            width: 400px;
+            height: auto;
+            border: 2px solid black;
+            display: flex;
+            /* flex-direction:row; */
+        }
+        .con-1,.con-2,.con-3,.con-4,.con-5,.con-6,.con-7,.con-8{
+            /* display: flex; */
+            /* width: 400px; */
+        }
+    
+        .first{
+            /* display: flex; */
+            /* flex-direction:row; */
+            width: 50px;
+            height: 50px;
+            /* border: 2px solid black; */
+            /* color: black; */
+        
+        }
+        img{
+            width: 30px;
+            margin: 8px;
+        }
+        .even .first:nth-child(even){
+            background-color: rgb(43, 126, 61);
+        }
+        .odd .first:nth-child(odd){
+            background-color: rgb(43, 126, 61);
+        }
+        .even .first:nth-child(odd){
+            background-color: rgb(172, 222, 183);
+        }
+        .odd .first:nth-child(even){
+            background-color: rgb(172, 222, 183);
+        }
+        .con-1{
+            /* width: 400px; */
+            /* display: flex; */
+            /* border: 2px solid black; */
+            
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="even con-1">
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=10302&format=png&color=000000" alt=""></div>
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=NS6O9zcKcKeX&format=png&color=000000" alt=""></div>
+            <div class="first"></div>
+            <div class="first"></div>
+            <div class="first"></div>
+            <div class="first"></div>
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=NS6O9zcKcKeX&format=png&color=000000" alt=""></div>
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=10302&format=png&color=000000" alt=""></div>
+        </div>
+        <div class="odd con-2">
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=10297&format=png&color=000000" alt=""></div>
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=NS6O9zcKcKeX&format=png&color=000000" alt=""></div>
+            <div class="first"></div>
+            <div class="first"></div>
+            <div class="first"></div>
+            <div class="first"></div>
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=NS6O9zcKcKeX&format=png&color=000000" alt=""></div>
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=10297&format=png&color=000000" alt=""></div>
+        </div>
+        <div class="even con-3">
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=10298&format=png&color=000000" alt=""></div>
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=NS6O9zcKcKeX&format=png&color=000000" alt=""></div>
+            <div class="first"></div>
+            <div class="first"></div>
+            <div class="first"></div>
+            <div class="first"></div>
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=NS6O9zcKcKeX&format=png&color=000000" alt=""></div>
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=10298&format=png&color=000000" alt=""></div>
+        </div>
+        <div class="odd con-4">
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=1017&format=png&color=000000" alt=""></div>
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=NS6O9zcKcKeX&format=png&color=000000" alt=""></div>
+            <div class="first"></div>
+            <div class="first"></div>
+            <div class="first"></div>
+            <div class="first"></div>
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=NS6O9zcKcKeX&format=png&color=000000" alt=""></div>
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=1017&format=png&color=000000" alt=""></div>
+        </div>
+        <div class="even con-5">
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=wQnYoaAv0ZDi&format=png&color=000000" alt=""></div>
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=NS6O9zcKcKeX&format=png&color=000000" alt=""></div>
+            <div class="first"></div>
+            <div class="first"></div>
+            <div class="first"></div>
+            <div class="first"></div>
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=NS6O9zcKcKeX&format=png&color=000000" alt=""></div>
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=wQnYoaAv0ZDi&format=png&color=000000" alt=""></div>
+        </div>
+        <div class="odd con-6">
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=10298&format=png&color=000000" alt=""></div>
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=NS6O9zcKcKeX&format=png&color=000000" alt=""></div>
+            <div class="first"></div>
+            <div class="first"></div>
+            <div class="first"></div>
+            <div class="first"></div>
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=NS6O9zcKcKeX&format=png&color=000000" alt=""></div>
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=10298&format=png&color=000000" alt=""></div>
+        </div>
+        <div class="even con-7">
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=10297&format=png&color=000000" alt=""></div>
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=NS6O9zcKcKeX&format=png&color=000000" alt=""></div>
+            <div class="first"></div>
+            <div class="first"></div>
+            <div class="first"></div>
+            <div class="first"></div>
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=NS6O9zcKcKeX&format=png&color=000000" alt=""></div>
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=10297&format=png&color=000000" alt=""></div>
+        </div>
+        <div class="odd con-8">
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=10302&format=png&color=000000" alt=""></div>
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=NS6O9zcKcKeX&format=png&color=000000" alt=""></div>
+            <div class="first"></div>
+            <div class="first"></div>
+            <div class="first"></div>
+            <div class="first"></div>
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=NS6O9zcKcKeX&format=png&color=000000" alt=""></div>
+            <div class="first"><img src="https://img.icons8.com/?size=100&id=10302&format=png&color=000000" alt=""></div>
+        </div>
+    </div>
+
+    <!-- <div class="container">
+        <div class="con-1">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="con-2"></div>
+        <div class="con-3"></div>
+        <div class="con-4"></div>
+        <div class="con-5"></div>
+        <div class="con-6"></div>
+        <div class="con-7"></div>
+        <div class="con-8"></div>
+    </div> -->
+</body>
+</html>
